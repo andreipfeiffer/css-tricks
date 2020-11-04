@@ -18,7 +18,7 @@ export function SquareGrid() {
           <span>🛠</span>
         </li>
         <li>
-          <span>⛏</span>
+          <span>🪓</span>
         </li>
         <li>
           <span>🔩</span>
@@ -36,7 +36,7 @@ export function SquareGrid() {
           <span>🔪</span>
         </li>
         <li>
-          <span>🪓</span>
+          <span>⛏</span>
         </li>
         <li>
           <span>🧭</span>

@@ -11,7 +11,6 @@ export function Nav(props: Props) {
   return (
     <nav className={styles.wrapper}>
       <ul className={styles.menu}>
-        {" "}
         {props.routes.map((r) => (
           <li key={r.path}>
             <Link to={r.path}>{r.label}</Link>
