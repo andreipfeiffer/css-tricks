@@ -1,5 +1,7 @@
 .wrapper {
   border-bottom: 1px dotted #cccccc;
+  margin-bottom: 3em;
+  padding-bottom: 1em;
 }
 
 .menu a:any-link {
