@@ -1,0 +1,11 @@
+.wrapper {
+  border-bottom: 1px dotted #cccccc;
+}
+
+.menu a:any-link {
+  color: dodgerblue;
+  text-decoration: none;
+}
+.menu a:hover {
+  text-decoration: underline;
+}
