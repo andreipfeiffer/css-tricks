@@ -4,7 +4,7 @@ import styles from "./twitter-3-image-gallery.module.css";
 export function Twitter3ImageGallery() {
   return (
     <>
-      <h1>Twitter's 3 Image Gallery</h1>
+      {/* <h1>Twitter's 3 Image Gallery</h1> */}
 
       <ul className={styles.gallery}>
         <li>
