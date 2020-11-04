@@ -2,38 +2,32 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
+
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 2px;
   grid-auto-flow: dense;
-  font-size: 1.5rem;
+  gap: 1em;
 }
 
 .list li {
-  padding: 0;
-  margin: 0;
-  padding-bottom: 100%;
+  background: #eeeeee;
+  padding-top: 100%;
   position: relative;
-  background-color: antiquewhite;
 }
 
-.list li span {
+.list span {
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 0;
   left: 0;
+  right: 0;
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-li.wide {
+.list .wide {
   grid-column: span 2;
-  padding-bottom: 50%;
-}
-
-li.tall {
-  grid-row: span 2;
-  padding-bottom: 200%;
+  padding-top: 50%;
 }

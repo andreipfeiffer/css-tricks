@@ -1,31 +1,32 @@
+/* eslint-disable jsx-a11y/accessible-emoji */
 import React from "react";
 import styles from "./square-grid.module.css";
 
 export function SquareGrid() {
   return (
     <>
-      <h1>Square Grid</h1>
+      {/* <h1>Square Grid</h1> */}
 
       <ul className={styles.list}>
         <li>
           <span>🔧</span>
         </li>
-        <li className={styles.wide}>
+        <li>
           <span>🔨</span>
         </li>
-        <li className={styles.tall}>
+        <li className={styles.wide}>
           <span>🛠</span>
         </li>
         <li>
           <span>⛏</span>
         </li>
-        <li className={styles.wide}>
+        <li>
           <span>🔩</span>
         </li>
         <li>
           <span>⚙️</span>
         </li>
-        <li className={styles.tall}>
+        <li>
           <span>🗡</span>
         </li>
         <li>
@@ -37,7 +38,7 @@ export function SquareGrid() {
         <li>
           <span>🪓</span>
         </li>
-        <li className={styles.wide}>
+        <li>
           <span>🧭</span>
         </li>
         <li>
@@ -46,7 +47,7 @@ export function SquareGrid() {
         <li>
           <span>⏲</span>
         </li>
-        <li className={styles.wide}>
+        <li>
           <span>⏰</span>
         </li>
         <li>
