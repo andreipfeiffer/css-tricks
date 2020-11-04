@@ -1,15 +1,19 @@
-.dl {
+.list {
   display: grid;
-  grid-auto-flow: column;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto;
+  grid-auto-flow: column;
   justify-items: center;
+  align-items: flex-end;
 }
 
-.dl dt {
+.label {
+  display: block;
+  color: #aaaaaa;
+  text-align: center;
+}
+
+.value {
   font-weight: bold;
-}
-
-.dl dd {
   margin: 0;
 }

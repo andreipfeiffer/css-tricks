@@ -4,21 +4,21 @@ import styles from "./definition-list-vertical-layout.module.css";
 export function DefinitionListVerticalLayout() {
   return (
     <>
-      <h1>Definition List Vertical Layout</h1>
+      {/* <h1>Definition List Vertical Layout</h1> */}
 
-      <p>
-        We'll use <code>grid-auto-flow</code>
-      </p>
+      <dl className={styles.list}>
+        <dt className={styles.label}>Photos</dt>
+        <dd className={styles.value}>123</dd>
 
-      <dl className={styles.dl}>
-        <dt>Photos</dt>
-        <dd>456</dd>
+        <dt className={styles.label}>
+          <small>premium</small>
+          <br />
+          Followers
+        </dt>
+        <dd className={styles.value}>456</dd>
 
-        <dt>Followers</dt>
-        <dd>602</dd>
-
-        <dt>Follows</dt>
-        <dd>290</dd>
+        <dt className={styles.label}>Follows</dt>
+        <dd className={styles.value}>65</dd>
       </dl>
     </>
   );
