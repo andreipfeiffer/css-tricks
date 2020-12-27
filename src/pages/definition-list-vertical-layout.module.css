@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto;
-  grid-auto-flow: column;
+  grid-auto-flow: dense;
   justify-items: center;
   align-items: flex-end;
 }
@@ -11,9 +11,11 @@
   display: block;
   color: #aaaaaa;
   text-align: center;
+  grid-row-start: 2;
 }
 
 .value {
   font-weight: bold;
   margin: 0;
+  grid-row-start: 1;
 }
